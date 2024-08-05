@@ -1,16 +1,16 @@
 import * as React from 'react';
 import TopLevelLayout from '../components/TopLevelLayout';
 
-const AboutPage = () => {
+const BlogPage = () => {
     return (
-        <TopLevelLayout pageTitle="About">
-            <p>I'm making this about page.</p>
+        <TopLevelLayout pageTitle="Blog">
+            <p>Some musings!</p>
         </TopLevelLayout>
     );
 };
 
 
 // This is the title, a feature only in Gatsby
-export const Head = () => <title>About Me</title>;
+export const Head = () => <title>Some Musings</title>;
 
-export default AboutPage;
+export default BlogPage;

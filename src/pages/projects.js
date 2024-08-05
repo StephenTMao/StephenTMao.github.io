@@ -1,10 +1,10 @@
 import * as React from 'react';
 import TopLevelLayout from '../components/TopLevelLayout';
 
-const AboutPage = () => {
+const ProjectsPage = () => {
     return (
-        <TopLevelLayout pageTitle="About">
-            <p>I'm making this about page.</p>
+        <TopLevelLayout pageTitle="Projects">
+            <p>Under development!</p>
         </TopLevelLayout>
     );
 };
@@ -13,4 +13,4 @@ const AboutPage = () => {
 // This is the title, a feature only in Gatsby
 export const Head = () => <title>About Me</title>;
 
-export default AboutPage;
+export default ProjectsPage;

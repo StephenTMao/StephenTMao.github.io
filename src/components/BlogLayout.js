@@ -8,7 +8,7 @@ import {
     navLinkText
  } from './layout.module.css';
 
-const Layout = ({ pageTitle, children }) => {
+const BlogLayout = ({ pageTitle, children }) => {
     return (
         <div className={container}>
             <nav>
@@ -19,8 +19,8 @@ const Layout = ({ pageTitle, children }) => {
                         </Link>
                     </li>
                     <li className={navLinkItem}>
-                        <Link to="/about" className={navLinkText}>
-                            About
+                        <Link to="/projects" className={navLinkText}>
+                            Projects
                         </Link>
                     </li>
                 </ul>
@@ -33,4 +33,4 @@ const Layout = ({ pageTitle, children }) => {
     );
 };
 
-export default Layout;
+export default BlogLayout;
