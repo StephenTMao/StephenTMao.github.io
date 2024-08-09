@@ -4,12 +4,16 @@ import { StaticImage  } from 'gatsby-plugin-image';
 
 const IndexPage = () => {
   return (
-    <TopLevelLayout pageTitle="Home Page">
-      <p>I'm foo bar foo bar woo woo woo.</p>
-      <p> testing updates </p>
+    <TopLevelLayout pageTitle="Stephen Mao">
       <StaticImage 
         alt="me lol" src="../images/stmaoJN-S23.jpg"
       />    
+      <p>Hi! I'm Stephen Mao, a computer science and mathematics undergraduate at Carnegie Mellon University. </p>
+      <p>I'm glad you're here, and I hope you enjoy your stay! </p>
+      <div/>
+      <div/>
+      <div/>
+      <p>Graphic design is not my passion :(</p>
     </TopLevelLayout>
   );
 };
