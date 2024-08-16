@@ -5,7 +5,7 @@ import {
     heading,
     navLinks,
     navLinkItem,
-    navLinkText
+    navLinkText,
  } from './layout.module.css';
 
 const TopLevelLayout = ({ pageTitle, children }) => {
@@ -32,6 +32,11 @@ const TopLevelLayout = ({ pageTitle, children }) => {
                         <Link to="/projects" className={navLinkText}>
                             Projects
                         </Link>
+                    </li>
+                    <li className={navLinkItem}>
+                        <a href="https://github.com/StephenTMao" className={navLinkText}>
+                            Github
+                        </a>
                     </li>
                 </ul>
             </nav>

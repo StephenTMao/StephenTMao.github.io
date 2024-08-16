@@ -1,0 +1,32 @@
+I consider exposition, a narrative, and a storyline very important to teaching; 
+a perspective I've held since I came to love mathematical pedagogy, 
+but was only articulated once I heard Brandon Wu articulate and express the same.
+
+In this light, calculus was a great course for 3b1b to exposit on; 
+other than a few initial glaze overs and assumptions about the actual mechanics of derivatives of integrals,
+the course is largely self contained; with results building upon previous results.
+
+One glaring exception is the derivative of the exponential function, upon which other results are built.
+
+In this article, I aim not to rigorously prove the aforementioned differentiation, (which would be extremely inaccessible to the relevant audience, and takes a nuke to a nail)
+but to illuminate in a way that is convincing in much the same way that an advanced high school student or undergraduate
+can "intuitively" believe it to be true (in much the same way analogies and paradigms about derivatives and integrals are accepted).
+
+Here we go!
+
+<insert gif of population growth>
+
+Two principles we need here:
+
+let c \in \R, f \in \D^0(\R). Then, (cf)' = c f', and if g(x) = f(x - c), then g'(c) = f'(0). 
+
+
+TBD rest of the math, maybe a visual/geometric argument as well
+TBD search for f'(0) = 1?
+
+<insert gif of desmos adjusting the base of the exponential, with y = x interposed on the background>
+
+
+
+From here, we can prove that (ln)' = x -> 1/x, and independently from series/sequences, we have that it converges everywhere. 
+From this, we can approximate e given the desired property extremely well. 

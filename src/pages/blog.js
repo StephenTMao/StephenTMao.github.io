@@ -1,11 +1,18 @@
 import * as React from 'react';
 import TopLevelLayout from '../components/TopLevelLayout';
+import BlogLink from '../components/components';
 
 const BlogPage = () => {
     return (
-        <TopLevelLayout pageTitle="Blog">
+        <TopLevelLayout pageTitle="">
             <p>Some musings!</p>
+            <nav>
+                <BlogLink
+                    pageTitle={`An insightful "derivation" of the exponential derivative`} path={"./blogs/exponential-derivative.js"}
+                />
+            </nav>
         </TopLevelLayout>
+        
     );
 };
 
