@@ -2,20 +2,39 @@ import * as React from 'react';
 import TopLevelLayout from '../components/TopLevelLayout';
 import { StaticImage  } from 'gatsby-plugin-image';
 import {
-  img
+  foreground_img,
+  bluetext,
+  footnote_definition,
+  footnote_body,
 } from '../components/layout.module.css';
+
+
 const IndexPage = () => {
   return (
     <TopLevelLayout pageTitle="Stephen Mao">
       <StaticImage 
-        alt="me lol" src="../images/stmaoJN-S23-cropped.jpg" style={img}
+        alt="me lol" src="../images/stmaoJN-S23-cropped.jpg" class={foreground_img}
       />    
       <p>Hi! I'm Stephen Mao, a computer science and mathematics undergraduate at Carnegie Mellon University. </p>
       <p>I'm glad you're here, and I hope you enjoy your stay! </p>
-      <div/>
-      <div/>
-      <div/>
-      <p>Graphic design is not my passion :(</p>
+      <p>Contact me at
+          <span class={bluetext}>
+            <i> firstname</i>.
+            <i>ascii84</i>.
+            <i>lastname</i>
+            @gmail.com
+          </span> 
+      </p>
+      <p>Just fill in the appropriate values (in between the ".")!
+
+        <sup><a href={"#1"}>1</a></sup>
+      </p>
+      <p id={"1"} class={footnote_definition}>
+        <sup>1</sup>
+        <span class={footnote_body}>
+          I hope and pray in a future without spam 
+        </span>
+      </p>
     </TopLevelLayout>
   );
 };

@@ -33,6 +33,10 @@ a:hover, a:focus, a:active {
   text-decoration: underline;
 }
 
+.bluetext {
+  color: #007AFF
+}
+
 p {
   margin: 1em 0;
   line-height: 1.5;
@@ -63,11 +67,13 @@ dl dd {
   margin: -1em 0 1em 1em;
 }
 
-img {
-  max-width: 100%;
+.foreground_img {
+  max-width: 50%;
   display: block;
   margin: 0 auto;
   padding: 0.5em;
+  float: right;
+  width: 500px;
 }
 
 blockquote {
@@ -141,18 +147,18 @@ figure figcaption {
   color: grey;
 }
 
-.footnote-definition sup {
+.footnote_definition sup {
   margin-left: -1.5em;
   float: left;
 }
 
-.footnote-definition .footnote-body {
+.footnote_definition .footnote_body {
   margin: 1em 0;
   padding: 0 1em;
   border: 1px dashed rgba(250, 100, 50, 0.3);
   background-color: rgba(200, 200, 200, 0.2);
 }
-.footnote-definition .footnote-body p:only-child {
+.footnote_definition .footnote_body p:only-child {
   margin: 0.2em 0;
 }
 
