@@ -7,7 +7,9 @@ Replace the italics with their values!
 
 Academic Interests
 
-Within mathematics and computer science, I enjoy functional programming, programming languages, a conglomerate of discrete math, and PEDAGOGY!
+Within mathematics and computer science, 
+I specifically enjoy functional programming, programming languages, compilers, 
+graph theory,  and PEDAGOGY!
 
 A lot of my personal opinions/thoughts/stances on mathematical pedagogy (which by my definition includes computer science pedagogy) 
 overlap with Po-Shen Loh on this topic, in the following ways:
