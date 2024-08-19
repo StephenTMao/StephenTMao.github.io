@@ -19,20 +19,20 @@ const IndexPage = () => {
       <p>I'm glad you're here, and I hope you enjoy your stay! </p>
       <p>Contact me at
           <span class={bluetext}>
-            <i> firstname</i>.
-            <i>ascii84</i>.
-            <i>lastname</i>
+            <i> &lt;firstname&gt;</i>.
+            <i>&lt;ascii84&gt;</i>.
+            <i>&lt;lastname&gt;</i>
             @gmail.com
           </span> 
       </p>
-      <p>Just fill in the appropriate values (in between the ".")!
+      <p>Substitute the appropriate values (in between the ".")!
 
         <sup><a href={"#1"}>1</a></sup>
       </p>
       <p id={"1"} class={footnote_definition}>
         <sup>1</sup>
         <span class={footnote_body}>
-          I hope and pray in a future without spam 
+          I hope, pray, and fight for a future without spam 
         </span>
       </p>
     </TopLevelLayout>
