@@ -4,13 +4,8 @@ import BlogLink from '../components/components';
 
 const BlogPage = () => {
     return (
-        <TopLevelLayout pageTitle="">
+        <TopLevelLayout pageTitle="Mind Dump">
             <p>Some musings!</p>
-            <nav>
-                <BlogLink
-                    pageTitle={`An insightful "derivation" of the exponential derivative`} path={"./blogs/exponential-derivative.js"}
-                />
-            </nav>
         </TopLevelLayout>
         
     );
