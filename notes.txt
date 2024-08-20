@@ -1,1 +1,8 @@
 On the 404 page, blurb about "Sorry if something is deprecated, let me know!"
+
+
+Todo:
+
+interface/implementation footnote-ing
+404 page
+make it searchable

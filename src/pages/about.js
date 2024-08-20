@@ -44,7 +44,7 @@ const AboutPage = () => {
             <h3>Various Et Cetera
                 <sup><a href={"#1"}>1</a></sup> </h3>
                 <p>
-                    Hobbies and activities that I have spent a nontrivial<sup><a href={"#2"}>1</a></sup>
+                    Hobbies and activities that I have spent a nontrivial<sup><a href={"#2"}>2</a></sup>
                     amount of time on include:
                     weightlifting, tennis, improv comedy, chess, and volleyball, 
                     the last of which is currently <i>primus inter pares</i>.
