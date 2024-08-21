@@ -20,7 +20,7 @@ const IndexPage = () => {
       <p>Contact me at
           <span class={bluetext}>
             <i> &lt;firstname&gt;</i>.
-            <i>&lt;ascii84&gt;</i>.
+            <i>&lt;ascii116&gt;</i>.
             <i>&lt;lastname&gt;</i>
             @gmail.com
           </span> 
