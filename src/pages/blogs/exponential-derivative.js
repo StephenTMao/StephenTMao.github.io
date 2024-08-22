@@ -8,7 +8,7 @@ const exp_deriv_blog = () => {
                 Test
             </p>
         </BlogLayout>
-    )
-}
+    );
+};
 
 export default exp_deriv_blog;
