@@ -3,9 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `My Gatsby Site`,
+    title: `Stephen Mao`,
     siteUrl: `https://www.yourdomain.tld`,
-    reactStrictMode: false,
   },
   plugins: [
     "gatsby-plugin-image",
