@@ -16,12 +16,14 @@
     "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
+    "better-react-mathjax": "^2.0.3",
     "gatsby": "^5.13.6",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-source-filesystem": "^5.13.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-latex-next": "^3.0.0"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"

@@ -1,27 +1,14 @@
 import * as React from 'react';
-
+import { MathJax, MathJaxContext } from "better-react-mathjax";
 import * as layout from '../components/layout.module.css';
 
 const TestPage = () => {
+    const delta = "$\\beta$";
     return (
         <div>
-            <p>
-                test
-            </p>
-            <table class={layout.posts}>
-                table
-                <thead class={layout.post}>
-                    thead foo
-                    <a href={"localhost:8000"}>bruh</a>
-                    <p class={layout.date}>date</p>
-                </thead>
-            </table>
-            <ol class={layout.posts}>
-                <li class={layout.post}>
-                    <date>date</date>
-                    <a href={"https://google.com"}>google</a>
-                </li>
-            </ol>
+            <MathJaxContext>
+                <MathJax>{"\\( \\left( \\frac{10}{4x} \\approx 2^{12}\\right) \\)"}</MathJax>
+            </MathJaxContext>
         </div>
     );
 };
