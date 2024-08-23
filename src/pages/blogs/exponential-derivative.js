@@ -6,6 +6,7 @@ const exp_deriv_blog = () => {
         <BlogLayout>
             <h3>Differentiating the Exponential</h3>
             <h4>Introduction</h4>
+                <p>In high school, Calculus BC was the medium by which </p>>
             <h4>Exposition</h4>
             <h4>Development</h4>
             <h4>Recapitulation</h4>
