@@ -1,9 +1,0 @@
-
-Todo:
-
-interface/implementation footnote-ing
-404 page DONE
-make it searchable
-
-
-lint the repo for ";" consistency
