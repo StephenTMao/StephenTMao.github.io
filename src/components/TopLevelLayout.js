@@ -28,11 +28,11 @@ const TopLevelLayout = ({ pageTitle, children }) => {
                             Blog
                         </Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link to="/projects">
                             Projects
                         </Link>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="https://github.com/StephenTMao">
                             Github
